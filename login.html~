@@ -1,0 +1,416 @@
+<html>
+<head>
+<title>FFCS - Student Login</title>
+
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="style2.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function modalWin() {
+if (window.showModalDialog) {
+window.showModalDialog("confirm_rewind.asp","Rewind","dialogWidth:700px;dialogHeight:550px");
+} else {
+window.open('template_rp.asp','name','height=255,width=250,toolbar=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no ,modal=yes');
+}
+}
+
+function popup(url) 
+{
+	params  = 'width='+screen.width;
+	params += ', height='+screen.height;
+	params += ', top=0, left=0'
+	params += ', fullscreen=yes';
+	params += ', scrollbars=yes';
+
+	newwin=window.open(url,'ffcs', params);
+	if (window.focus)
+	{
+		newwin.focus();
+	}
+	return false;
+}
+
+function popup2(url) 
+{
+	//params  = 'width='+screen.width;
+	//params += ', height='+screen.height;
+	params  = 'width=800';
+	params += ', height=600';
+	params += ', top=0, left=0'
+	params += ', fullscreen=no';
+	params += ', scrollbars=yes';
+
+	newwin=window.open(url,'ffcs2', params);
+	if (window.focus)
+	{
+		newwin.focus();
+	}
+	return false;
+}
+
+function popup3(url) 
+{	
+	var left = (screen.width / 2) - (700 / 2);
+    var top = (screen.height / 2) - (500 / 2);
+	newwin = window.open(url, "academic", 'height=500,width=700,toolbar=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no ,modal=yes, top=' + top + ', left=' + left);
+	
+	if (window.focus)
+	{
+		newwin.focus();
+	}
+	return false;
+}
+
+</script>
+
+<script type="text/javascript">
+
+spe=500;
+na=document.all.tags("blink");
+swi=1;
+bringBackBlinky();
+
+function bringBackBlinky()
+{
+	if (swi == 1)
+	{
+		sho="visible";
+		swi=0;
+	}
+	else
+	{
+		sho="hidden";
+		swi=1;
+	}
+
+	for(i=0;i<na.length;i++)
+	{
+		na[i].style.visibility=sho;
+	}
+
+	setTimeout("bringBackBlinky()", spe);
+}
+
+</script>
+ 
+<base target="_self">
+
+</head>
+
+<table width="79%" border="0" cellpadding="0" cellspacing="0" height="350">
+  <tr>
+	<td valign="top" width="10" bgcolor=#FFFFFF>
+		&nbsp;
+	</td>
+	<td valign="top" width="740" bgcolor=#FFFFFF align="center">
+		
+	
+	
+	
+	<b>Click on the Spotlight for detailed view</b><br><br>
+	
+	<table cellspacing=0 cellpadding=2 border="1" width="90%" height="70%" style="border-collapse: collapse" bordercolor="#000000">
+		
+	<tr align=center height="10%">       
+		<td bgcolor="#616D7E" colspan=2 width="90%">
+			<a href="#" onclick="popup3('http://academics.vit.ac.in/student/include_spotlight.asp')"><font color=white><b>Spotlight</b></font></a>
+			<img border="0" src="images/hand.gif" height="16" width="32">
+		</td>
+	</tr>
+	
+	<tr height="25%">       
+		<td bgcolor=#E6F2FF colspan=2 width="90%">
+			<marquee behavior="scroll" direction="up" scrolldelay="75" scrollamount="1" height="100" width="900" onMouseOver="this.setAttribute('scrollamount', 0, 0);" OnMouseOut="this.setAttribute('scrollamount', 1, 0);">
+			
+<head>
+<title>Spotlight</title>
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="style2.css" rel="stylesheet" type="text/css">
+</head>
+
+	<table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse" bordercolor="#000000" width="900">
+<tr><td><font color='#000000'><b><u>Academics:</u></b></font></td></tr>
+			<tr><td style="text-align: justify;"><a href="http://academics2.vit.ac.in/withdraw/" target="_blank"><font color=blue>Winter Semester 2014-15 Course Withdrawal is open</font></a></td></tr>
+			<tr><td><hr></td></tr>
+
+			<tr><td style="text-align: justify;"><a href="spotlight_file.asp?slcode=2015000045" target="_blank"><font color=blue>Circular on Course Withdrawal - Winter 2014-15 Semester</font></a></td></tr>
+			<tr><td><hr></td></tr>
+
+			<tr><td style="text-align: justify;"><a href="http://www.wehack.in/" target="_blank"><font color=blue><strong>Wehack 2015, 19-22nd March- Click here to Register</strong></font></a></td></tr>
+			<tr><td><hr></td></tr>
+
+			<tr><td style="text-align: justify;"><a href="studfees_pdfimport.asp" target="_self"><font color=blue>Tution Fees Intimation Letter</font></a></td></tr>
+			<tr><td><hr></td></tr>
+
+			<tr><td style="text-align: justify;"><a href="spotlight_file.asp?slcode=2015000021" target="_blank"><font color=blue><p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;; color: #1f497d; mso-fareast-language: EN-US;">The room allotment for the APT training is given below.&nbsp; There have been some changes from the previous allotment, please consult the attached PDF for identifying your room.</span></font></a><img src='spotlight_image_file.asp?imgcd=5' onContextMenu='return false;' ondrag='return false;' onmousedown='return false;'></td></tr>
+			<tr><td><hr></td></tr>
+
+			<tr><td style="text-align: justify;"><a href="spotlight_file.asp?slcode=2015000005" target="_blank"><font color=blue>APT Venues for training in Winter 2015 has been revised and the new venues are given in the PDF. The first session starts at 9:00AM</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="MsoNormal">The following batches will have training on Saturdays.2012 &amp; 2013 BTech, 2011 MS (Software Engg.), 2013 Batch MCA</p>
+<p class="MsoNormal">All other students will be in the Sunday batch. 2012, 2013 &amp; 2014 MS (Software Engg.), 2014 Batch BTech, 2014 Batch MCA, 2014 Batch MTech, 2014 MSc(CS)   
+<table class="MsoNormalTable" style="margin-left: -5.4pt; border-collapse: collapse; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+</tbody>
+</table>
+</font></a></td></tr>
+			<tr><td><hr></td></tr>
+
+			<tr><td style="text-align: justify;"><a href="student_mess.asp" target="_self"><font color=blue>View your Hostel Mess Detail</font></a></td></tr>
+			<tr><td><hr></td></tr>
+<tr><td><font color='#000000'><b><u>COE:</u></b></font></td></tr>
+			<tr><td style="text-align: justify;"><a href="spotlight_file.asp?slcode=2015000049" target="_blank"><font color=blue>Winter2014-15 Semester TEE as Arrear&nbsp; and Regular Arrear Registration Circular</font></a></td></tr>
+			<tr><td><hr></td></tr>
+
+			<tr><td style="text-align: justify;"><a href="spotlight_file.asp?slcode=2015000036" target="_blank"><font color=blue>Trimester (II &amp; V) 2014-15 Term End / Regular Arrear Theory Examinations Paper Seeing and Revaluation Circular</font></a></td></tr>
+			<tr><td><hr></td></tr>
+
+			<tr><td style="text-align: justify;"><a href="spotlight_file.asp?slcode=2015000035" target="_blank"><font color=blue>TEE Schedule Winter 2014-15 Semester</font></a></td></tr>
+			<tr><td><hr></td></tr>
+<tr><td><font color='#000000'><b><u>Events - University / School:</u></b></font></td></tr>
+			<tr><td style="text-align: justify;"><a href="confirm_rewind.asp" target="_self"><font color=blue>To purchase your copy of Rewind (VIT University Year Book), Click Here.</font></a></td></tr>
+			<tr><td><hr></td></tr>
+<tr><td><font color='#000000'><b><u>Placement & Training:</u></b></font></td></tr>
+			<tr><td style="text-align: justify;">Most of the Dream companies like Microsoft, DeShaw, eBay, Flipkart, McKinsey, JPMorgan etc., that visit VIT for placements offer more than 10 lakhs per annum as an annual compensation. Apart from the aptitude tests, they have programming/coding as part of their selection process. They also have programming questions during the interviews.
+In order to train the students in programming, VIT has signed with the following 3 online programming portals&nbsp;
+www.facenow.in
+www.skillrack.com
+www.vassess.com
+&nbsp;You will Be getting login IDs and passwords from all the 3 online portals in your VIT email.You may expect the following features from all the portals
+&nbsp;&#61656; &nbsp; An User manual which would explain the functionality of the portals.
+&#61656; &nbsp; A common mail ID for your queries and suggestions (please write only to those IDs if you have any problems of logging
+&#61656; &nbsp; Multiple language options
+&#61656; &nbsp; Practice questions, short cuts and solutions in programming.&nbsp;
+&#61656; &nbsp;Tests may be taken from anywhere(provided you have a net connection)
+&#61656; &nbsp;Programming Concepts
+&#61656; &nbsp;Programming Contests
+Please note that this is a heads up mail and you would receive the login ids and other details before 10th January, 2015 from all the portals.The above practice tests are free and you are requested to make use of all the portals to the fullest extent.
+Dr. V. Samuel Rajkumar
+Director (Placement and Training)
+VIT University</td></tr>
+			<tr><td><hr></td></tr>
+
+	</table>
+</marquee>
+		</td>
+	</tr>
+	
+	<tr height="10%">
+		<td bgcolor="#616D7E" align=center width="45%">
+			<font color=white><b>Attendance</b></font>
+		</td>
+		<td bgcolor="#616D7E" align=center width="45%">
+			<font color=white><b>Messages</b></font>
+		</td>
+	</tr>
+	
+	<tr height="25%">
+		<td bgcolor=#E6F2FF width="450" align=center valign="top">
+			
+
+<head>
+<link rel="stylesheet" type="text/css" href="HTMLGraph/HTMLGraph.css" />
+</head>
+
+<body>
+<div class="main_content">
+
+	
+	
+	<br>
+	<center><b><u><font size="2" face="Tahoma, arial">Winter Semester 2014~15</font></u></b></center>
+	<br>
+	<table border="0" cellspacing="0" cellpadding="0" width="" id="chart1_table"><tr><td colspan= "13" class="chart1_title"></td></tr><tr><td valign="bottom"><img src="HTMLGraph/images/y100.gif" width="35" height="111" alt="" /></td><td valign="bottom" class="chart1_barcell">72<br /><img src="HTMLGraph/images/1x1_FFC19F.gif" width="12" height="72" alt="" title="CHY101 (ETH): 72" /></td><td valign="bottom" class="chart1_barcell">100<br /><img src="HTMLGraph/images/1x1_83C4FE.gif" width="12" height="100" alt="" title="CHY101 (ELA): 100" /></td><td valign="bottom" class="chart1_barcell">75<br /><img src="HTMLGraph/images/1x1_83C4FE.gif" width="12" height="75" alt="" title="ECE201 (TH): 75" /></td><td valign="bottom" class="chart1_barcell">75<br /><img src="HTMLGraph/images/1x1_83C4FE.gif" width="12" height="75" alt="" title="ECE202 (TH): 75" /></td><td valign="bottom" class="chart1_barcell">83<br /><img src="HTMLGraph/images/1x1_83C4FE.gif" width="12" height="83" alt="" title="ECE203 (ETH): 83" /></td><td valign="bottom" class="chart1_barcell">80<br /><img src="HTMLGraph/images/1x1_83C4FE.gif" width="12" height="80" alt="" title="ECE203 (ELA): 80" /></td><td valign="bottom" class="chart1_barcell">88<br /><img src="HTMLGraph/images/1x1_83C4FE.gif" width="12" height="88" alt="" title="ECE207 (ETH): 88" /></td><td valign="bottom" class="chart1_barcell">72<br /><img src="HTMLGraph/images/1x1_FFC19F.gif" width="12" height="72" alt="" title="ECE207 (ELA): 72" /></td><td valign="bottom" class="chart1_barcell">74<br /><img src="HTMLGraph/images/1x1_FFC19F.gif" width="12" height="74" alt="" title="HUM106 (TH): 74" /></td><td valign="bottom" class="chart1_barcell">74<br /><img src="HTMLGraph/images/1x1_FFC19F.gif" width="12" height="74" alt="" title="HUM122 (TH): 74" /></td><td valign="bottom" class="chart1_barcell">79<br /><img src="HTMLGraph/images/1x1navy.gif" width="12" height="79" alt="Average" title="Average: 79" /></td><td rowspan="2" class="chart1_totals_right">&nbsp;</td></tr><tr><td>&nbsp;</td><td class="chart1_labels"><img alt='' width=15 src="HTMLGraph/images/verdana10/right_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/H.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/T.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/left_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/space.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/1.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/0.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/1.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/Y.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/H.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/C.gif"><br>
+
+
+
+
+
+
+
+
+
+
+
+</td><td class="chart1_labels"><img alt='' width=15 src="HTMLGraph/images/verdana10/right_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/A.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/L.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/left_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/space.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/1.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/0.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/1.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/Y.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/H.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/C.gif"><br>
+
+
+
+
+
+
+
+
+
+
+
+</td><td class="chart1_labels"><img alt='' width=15 src="HTMLGraph/images/verdana10/right_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/H.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/T.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/left_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/space.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/1.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/0.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/2.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/C.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br>
+
+
+
+
+
+
+
+
+
+
+</td><td class="chart1_labels"><img alt='' width=15 src="HTMLGraph/images/verdana10/right_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/H.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/T.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/left_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/space.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/2.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/0.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/2.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/C.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br>
+
+
+
+
+
+
+
+
+
+
+</td><td class="chart1_labels"><img alt='' width=15 src="HTMLGraph/images/verdana10/right_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/H.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/T.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/left_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/space.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/3.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/0.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/2.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/C.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br>
+
+
+
+
+
+
+
+
+
+
+
+</td><td class="chart1_labels"><img alt='' width=15 src="HTMLGraph/images/verdana10/right_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/A.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/L.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/left_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/space.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/3.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/0.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/2.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/C.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br>
+
+
+
+
+
+
+
+
+
+
+
+</td><td class="chart1_labels"><img alt='' width=15 src="HTMLGraph/images/verdana10/right_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/H.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/T.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/left_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/space.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/7.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/0.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/2.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/C.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br>
+
+
+
+
+
+
+
+
+
+
+
+</td><td class="chart1_labels"><img alt='' width=15 src="HTMLGraph/images/verdana10/right_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/A.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/L.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/left_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/space.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/7.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/0.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/2.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/C.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/E.gif"><br>
+
+
+
+
+
+
+
+
+
+
+
+</td><td class="chart1_labels"><img alt='' width=15 src="HTMLGraph/images/verdana10/right_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/H.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/T.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/left_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/space.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/6.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/0.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/1.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/M.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/U.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/H.gif"><br>
+
+
+
+
+
+
+
+
+
+
+</td><td class="chart1_labels"><img alt='' width=15 src="HTMLGraph/images/verdana10/right_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/H.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/T.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/left_p.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/space.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/2.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/2.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/1.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/M.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/U.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/H.gif"><br>
+
+
+
+
+
+
+
+
+
+
+</td><td><img alt='' width=15 src="HTMLGraph/images/verdana10/e.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/g.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/a.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/r.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/e.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/v.gif"><br><img alt='' width=15 src="HTMLGraph/images/verdana10/capitals/A.gif"><br>
+
+
+
+
+
+
+</td></table>
+	</div></body>
+	
+		</td>
+		<td bgcolor=#E6F2FF width="45%">
+			<marquee behavior="scroll" direction="up" scrolldelay="75" scrollamount="1" width="450" onMouseOver="this.setAttribute('scrollamount', 0, 0);" OnMouseOut="this.setAttribute('scrollamount', 1, 0);">
+				
+				<br>
+				<table cellspacing="0" cellpadding="3" border="0" style="border-collapse: collapse" bordercolor="#000000" width="450">
+		
+				<tr>
+					<td colspan=3><b><u>Message from your Class Faculty:</u></b>&nbsp;<img src="images/sir.jpg"></img></td>
+				</tr>
+				
+				<tr>
+					<td colspan=3><b><u>Winter Semester 2014~15</u></b></td>
+				</tr>
+
+					<tr>
+						<td width="90" valign="top"><b>Faculty</b></td>
+						<td width="10" valign="top" align="center"><b>:</b></td>
+						<td width="350" valign="top">RAJESH R - SENSE</td>
+					</tr>
+					
+					<tr>
+						<td width="90" valign="top"><b>Course</b></td>
+						<td width="10" valign="top" align="center"><b>:</b></td>
+						<td width="350" valign="top">ECE203 - Modulation Techniques - ETH</td>
+					</tr>
+				
+					<tr>
+						<td width="90" valign="top"><b>Message</b></td>
+						<td width="10" valign="top" align="center"><b>:</b></td>
+						<td width="350" valign="top">MODULATION TECHNIQUES REVISION CLASS IS ON SATURDAY INSTEAD OF TUESDAY.
+KINDLY GO THRU THE TOPICS BEFORE YOU ATTEND
+
+</td>
+					</tr>
+					
+					<tr>
+						<td width="90"><b>Sent On</b></td>
+						<td width="10" align="center"><b>:</b></td>
+						<td width="350">19/02/2015 18:14:38</td>
+					</tr>
+					
+					<tr>
+						<td colspan="3"><hr /></td>
+					</tr>
+
+					<tr>
+						<td colspan="3"><hr /></td>
+					</tr>
+					
+				</table>
+</marquee>
+		</td>
+	</tr>
+		
+	</table>
+					
+	
+
+	<br><br>
+	</td>
+  </tr>
+</table>
+
+
+</html>

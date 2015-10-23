@@ -1,0 +1,155 @@
+{
+    "status": "success", 
+    "timetable": {
+        "1": {
+            "1": 0, 
+            "2": 0, 
+            "3": 0, 
+            "4": 0, 
+            "5": 0, 
+            "6": 0, 
+            "7": "ECE203 - ETH - TT524 - A2", 
+            "8": "HUM106 - TH - TT631 - F2", 
+            "9": "ECE207 - ETH - TT523 - C2", 
+            "10": "ECE103 - ETH - TT523 - E2", 
+            "11": 0, 
+            "12": 0
+        }, 
+        "2": {
+            "1": 0, 
+            "2": 0, 
+            "3": 0, 
+            "4": 0, 
+            "5": 0, 
+            "6": 0, 
+            "7": "ECE201 - TH - TT523 - B2", 
+            "8": 0, 
+            "9": "ECE202 - TH - TT523 - D2", 
+            "10": "ECE203 - ETH - TT524 - TA2", 
+            "11": 0, 
+            "12": 0
+        }, 
+        "3": {
+            "1": 0, 
+            "2": 0, 
+            "3": 0, 
+            "4": 0, 
+            "5": "ECE103 - ELA - TT503 - L17", 
+            "6": "ECE103 - ELA - TT503 - L18", 
+            "7": "ECE207 - ETH - TT523 - C2", 
+            "8": "HUM106 - TH - TT631 - F2", 
+            "9": "ECE103 - ETH - TT523 - E2", 
+            "10": "ECE201 - TH - TT523 - TB2", 
+            "11": 0, 
+            "12": 0
+        }, 
+        "4": {
+            "1": 0, 
+            "2": 0, 
+            "3": 0, 
+            "4": 0, 
+            "5": "ECE203 - ELA - TT135 - L23", 
+            "6": "ECE203 - ELA - TT135 - L24", 
+            "7": "ECE202 - TH - TT523 - D2", 
+            "8": "ECE203 - ETH - TT524 - A2", 
+            "9": "HUM106 - TH - TT631 - F2", 
+            "10": "ECE207 - ETH - TT523 - C2", 
+            "11": 0, 
+            "12": 0
+        }, 
+        "5": {
+            "1": 0, 
+            "2": 0, 
+            "3": "ECE207 - ELA - TT246 - L27", 
+            "4": "ECE207 - ELA - TT246 - L28", 
+            "5": 0, 
+            "6": 0, 
+            "7": "ECE103 - ETH - TT523 - E2", 
+            "8": "ECE201 - TH - TT523 - B2", 
+            "9": 0, 
+            "10": "ECE202 - TH - TT523 - D2", 
+            "11": 0, 
+            "12": 0
+        }
+    }, 
+    "class_details": {
+        "4385": [
+            "L17+L18", 
+            "Digital Logic Design", 
+            "ECE103", 
+            "TT503", 
+            "ARUNKUMAR K.R - SENSE"
+        ], 
+        "1091": [
+            "B2+TB2", 
+            "Probability Theory and Random Process", 
+            "ECE201", 
+            "TT523", 
+            "SANKAR GANESH S - SENSE"
+        ], 
+        "1062": [
+            "E2", 
+            "Digital Logic Design", 
+            "ECE103", 
+            "TT523", 
+            "DHANABAL R - SENSE"
+        ], 
+        "4456": [
+            "L27+L28", 
+            "Analog Electronic Circuits", 
+            "ECE207", 
+            "TT246", 
+            "ARUN M - SENSE"
+        ], 
+        "4842": [
+            "L23+L24", 
+            "Modulation Techniques", 
+            "ECE203", 
+            "TT135", 
+            "SURESH R - SENSE"
+        ], 
+        "1079": [
+            "C2", 
+            "Analog Electronic Circuits", 
+            "ECE207", 
+            "TT523", 
+            "RAMAKRISHNAN V.N - SENSE"
+        ], 
+        "1105": [
+            "D2", 
+            "Transmission Lines and Fields", 
+            "ECE202", 
+            "TT523", 
+            "JAGADISH CHANDRA MUDIGANTI - SENSE"
+        ], 
+        "1780": [
+            "F2", 
+            "Corporate Economics", 
+            "HUM106", 
+            "TT631", 
+            "HARIHARAN N.P - SSL"
+        ], 
+        "1047": [
+            "A2+TA2", 
+            "Modulation Techniques", 
+            "ECE203", 
+            "TT524", 
+            "RAJESH R - SENSE"
+        ]
+    }, 
+    "past_grades": {
+        "HUM121_20": "Ethics and Values", 
+        "PHY104": "Semiconductor Device Physics", 
+        "ECE101": "Electron Devices and Circuits", 
+        "MAT201": "Complex Variables and Partial Differential Equations", 
+        "FRE101": "Basic French", 
+        "CHY101": "Engineering Chemistry", 
+        "CSE102": "Data Structures and Algorithms", 
+        "ECE208": "Engineering Electromagnetics", 
+        "MAT105": "Differential and Difference Equations", 
+        "ECE206": "Signals and Systems", 
+        "MEE102": "Workshop Practice", 
+        "ENG102_20": "English for Engineers - II", 
+        "MEE101": "Engineering Graphics"
+    }
+}

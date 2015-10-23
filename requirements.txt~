@@ -1,0 +1,6 @@
+flask>=0.8
+mechanize>=0.2
+beautifulsoup4>=4
+-e hg+https://bitbucket.org/etienned/pil-2009-raclette/#egg=PIL
+
+
